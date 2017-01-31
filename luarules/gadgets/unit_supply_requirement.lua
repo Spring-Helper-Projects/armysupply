@@ -245,6 +245,9 @@ local function InitializeTeamSupply(teamID)
 end
 
 function gadget:Initialize()
+	Spring.SetGameRulesParam ("supplyCap", SUPPLY_CAP)
+	Spring.SetGameRulesParam ("supplyIntrinsic", INTRINSIC_SUPPLY)
+
 	local teams = Spring.GetTeamList()
 	for _, teamID in ipairs(teams) do
 		InitializeTeamSupply(teamID)
