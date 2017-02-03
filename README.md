@@ -1,6 +1,8 @@
 # Army supply
 
-This implements a supply/food cap, similar to e.g. Warcraft/Starcraft.
+This implements a supply/food cap, similar to e.g. Warcraft/Starcraft2.
+
+There is currently only one kind of supply, so it has more in comman with Starcraft 2 as opposed to the more robust/complicated system in Starcraft: Brood War where each race has a separate counter.
 
 # Usage
 
